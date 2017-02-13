@@ -1,0 +1,25 @@
+{
+    "name": "devwrench/github-slugger",
+    "description": "GitHub-compatible URL slug generator",
+    "keywords": ["github", "slug", "url"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christopher White",
+            "email": "cxwembedded@gmail.com",
+            "homepage": "http://devwrench.com"
+        },
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "GitHubSlugger\\": "src/"
+        },
+        "files": ["src/slugger.php"]
+    },
+
+    "require": {
+        "php": ">=5.4.0"
+    }
+}
+
